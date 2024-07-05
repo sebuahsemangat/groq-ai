@@ -25,7 +25,7 @@ function App() {
 
   return (
     <main className='flex flex-col min-h-[80vh] justify-center items-center max-w-xl w-full mx-auto'>
-      <h1 className="text-4xl text-indigo-500">Cet JIPITI</h1>
+      <h1 className="text-4xl text-indigo-500">ResepGPT</h1>
       
       <form className='flex flex-col gap-4 py-4 w-full' onSubmit={(e) => e.preventDefault()}>
         <textarea
@@ -52,7 +52,7 @@ function App() {
           <SyntaxHighlight language='swift' style={darcula} wrapLongLines={true}>{data.toString()}</SyntaxHighlight>
         ) : null }
       </div>
-      <footer>Created by Apep Wahyudin</footer>
+      <footer>Created by Ifsu Team</footer>
     </main>
   );
 }
